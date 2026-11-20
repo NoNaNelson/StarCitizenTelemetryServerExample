@@ -12,6 +12,12 @@ pip install grpcio
 source .venv/bin/activate
 ```
 
+in your user.cfg add these lines (create if not exists)
+```
+grpc.client.server.enabled = 1
+grpc.client.server.port = 2942
+server.game.telemetry.enabled = 1
+```
 
 ## run
 
